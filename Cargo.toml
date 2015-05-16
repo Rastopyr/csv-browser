@@ -3,11 +3,5 @@ name = "csv-browser"
 version = "0.1.0"
 authors = ["Rastopyr <Rastopyr@gmail.com>"]
 
-[build-dependencies.cocoa]
-git = "https://github.com/servo/rust-cocoa.git"
-
-[dependencies]
-bitflags = "0.1"
-libc = "*"
-objc = "0.1"
-cocoa = "0.1.1"
+[dependencies.qmlrs]
+git = "https://github.com/cyndis/qmlrs"
